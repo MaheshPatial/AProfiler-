@@ -1,6 +1,6 @@
 # AProfiler
 
-<img src="https://github.com/MaheshPatial/Images/blob/master/Aprofiler1.png"/>
+<img src="https://github.com/MaheshPatial/Images/blob/master/Aprofiler1.png" width="180px"/>
 <img src="https://github.com/MaheshPatial/Images/blob/master/Aprofiler2.png" width="180px" />
 
 
