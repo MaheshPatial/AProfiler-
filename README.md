@@ -1,7 +1,7 @@
 # AProfiler
 
-<img src="https://www.flickr.com/photos/187150219@N06/49577208988/in/dateposted-public/"/>
-<img src="https://lh4.ggpht.com/fugTTF9i76nsfnpWfv34xe1Xz5u4dDWOqbTYkBaPrzud4zPuYIZtQQhEyH7pX9POjYU" width="180px" />
+<img src="https://github.com/MaheshPatial/Images/blob/master/Aprofiler1.png"/>
+<img src="https://github.com/MaheshPatial/Images/blob/master/Aprofiler2.png" width="180px" />
 
 
 AnotherMonitor monitors and records the CPU and memory usage of Android devices.
