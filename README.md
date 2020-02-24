@@ -1,6 +1,6 @@
 # AProfiler
 
-<img src="https://imgur.com/Wmzwf7T" width="180px" />
+<img src="https://imgur.com/Wmzwf7T"/>
 <img src="https://lh4.ggpht.com/fugTTF9i76nsfnpWfv34xe1Xz5u4dDWOqbTYkBaPrzud4zPuYIZtQQhEyH7pX9POjYU" width="180px" />
 
 
