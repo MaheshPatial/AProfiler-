@@ -1,6 +1,6 @@
 # AProfiler
 
-<img src="<blockquote class="imgur-embed-pub" lang="en" data-id="a/30w89aG" data-context="false" ><a href="//imgur.com/a/30w89aG"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>" width="180px" />
+<img src="https://imgur.com/Wmzwf7T" width="180px" />
 <img src="https://lh4.ggpht.com/fugTTF9i76nsfnpWfv34xe1Xz5u4dDWOqbTYkBaPrzud4zPuYIZtQQhEyH7pX9POjYU" width="180px" />
 <img src="https://lh5.ggpht.com/96BmklbBOEOgL5mmXZQkofwswLGEzY4Zf6EirtF2nOBgf_cTo86RxuzCInv7etIfNgTO" width="180px" />
 
