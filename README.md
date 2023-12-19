@@ -6,10 +6,6 @@
 
 Aprofiler monitors and records the CPU and memory usage of Android devices.
 
-## IMPORTANT NOTICE for Android 7.0+ users
-
-Due to undocumented changes made by Google, on Android 7.0 CPU usage information for processes others than the own Aprofiler one will not be available (not even with root access). Rest of the app will work normally. For devices with Android 8.0 Aprofiler will not even show the CPU usage of the own app process. Read the below [Retriving processes info since Android 7.0](#retrieving-processes-info-since-android-nougat-70-api-24-august-2016) for more info.
-
 ## Details
 
 Aprofiler shows the device CPU and memory status in real time.
@@ -28,17 +24,6 @@ In order to get the CPU usage the app does NOT make use of the [`top`](https://e
 
 https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk65143
 
-#### About multi-core devices
-
-The app does not support showing values for a specific core in multi-core devices. It will show an average of all the device's cores.
-
-#### Retrieving processes info since Android Lollipop 5.1 (API 22, March 2015)
-
-For devices running Android 5.1.1 it is not possible any more to retrieve the processes list with [`ActivityManager.getRunningAppProcesses()`](http://developer.android.com/reference/android/app/ActivityManager.html#getRunningAppProcesses%28%29). This change has not been documented anywhere on the official documentation nor an alternative way to retrieve the list has been provided. Thankfully the community at Stack Overflow came out with some [satisfying solution](http://stackoverflow.com/questions/30619349/android-5-1-1-and-above-getrunningappprocesses-returns-my-application-packag). For devices with Android 5.1 Aprofiler now uses the unofficial [AndroidProcesses](https://github.com/jaredrummler/AndroidProcesses) library to retrieve the processes list. The drawback of this is that for some processes there is no way to retrieve the app name nor the icon and instead only the long package name is shown.
-
-#### Retrieving processes info since Android Nougat 7.0 (API 24, August 2016)
-
-In Android 7.0 Google once again has made undocumented changes and has significantly restricted access to the `proc` file system. This means that since this new API level it is not possible anymore to retrieve processes info. Aprofiler running on devices with Android 7.0 will only show total CPU usage, Aprofiler CPU usage and memory usage, but not CPU usage for other processes. Running the app on a rooted device does not make difference. More info on [File system changes in Android Nougat - Stack Overflow](https://stackoverflow.com/questions/38590140/file-system-changes-in-android-nougat). [Star this Android issue](https://issuetracker.google.com/issues/37091475) to push Google to implement an alternative API.
 
 
 #### Retrieving processes info since Android Oreo 8.0 (API 26, August 2017)
